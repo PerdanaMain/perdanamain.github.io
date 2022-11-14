@@ -36,6 +36,8 @@ html::-webkit-scrollbar-thumb{
     background:var(--yellow);
 }
 
+
+
 body{
     background: #111;
     overflow-x: hidden;
@@ -271,7 +273,6 @@ header .own-navbar ul li a:hover{
 .education .box-container .box p{
     font-size: 1.4rem;
     color:#eee;
-    padding: 1rem 0;
 }
 
 .education .box-container .box i{
@@ -285,6 +286,12 @@ header .own-navbar ul li a:hover{
     font-size: 2rem;
     color:#fff;
     background:var(--yellow);
+}
+
+.education .box-container .box img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
 }
 
 .portfolio .box-container{
@@ -326,8 +333,11 @@ header .own-navbar ul li a:hover{
     padding:4rem;
     padding-bottom: 0;
 }
+.contact .own-row .content iframe{
+    border-radius: 5px;
+}
 
-.contact .own-row form{
+/* .contact .own-row form{
     flex:1 1 45rem;
     padding:2rem;
     margin:2rem;
@@ -342,16 +352,16 @@ header .own-navbar ul li a:hover{
     text-transform: none;
     font-size: 1.7rem;
     width:100%;
-}
+} */
 
-.contact .own-row form .box::placeholder{
+/* .contact .own-row form .box::placeholder{
     text-transform: capitalize;
 }
 
 .contact .own-row form .message{
     height: 15rem;
     resize: none;
-}
+} */
 
 .contact .own-row .content .title{
     text-transform: uppercase;
@@ -463,8 +473,8 @@ header .own-navbar ul li a:hover{
         width:100%;
     }
 
-    .contact .own-row form{
+    /* .contact .own-row form{
         margin:3rem 0;
-    }
+    } */
 
  }
